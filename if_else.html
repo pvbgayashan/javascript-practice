@@ -1,0 +1,30 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title>Javascript If Else</title>
+	</head>
+	<body>
+		<script>
+			var firstNum = 10;
+			var secondNum = 20;
+			
+			if (firstNum < secondNum) {
+				if (firstNum == 10) {
+					document.write("First Number is <strong>small</strong> and equals to" + firstNum + ".");
+				} else {
+					document.write("First Number is <strong>small</strong> and not equals to" + firstNum + ".");
+				}
+			} else {
+				document.write("First Number is not <strong>small</strong>.");
+			}
+			
+			if (firstNum == 10 && secondNum == 40) {
+				document.write("When BOTH side true.");
+			}
+
+			if (firstNum == 10 || secondNum == 40) {
+				document.write("When ANY side true.");
+			}
+		</script>
+	</body>
+</html>
